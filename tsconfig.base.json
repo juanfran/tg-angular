@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@tg/restore-focus": ["packages/restore-focus/src/index.ts"],
       "@tg/watch-element": ["packages/watch-element/src/index.ts"]
     }
   },

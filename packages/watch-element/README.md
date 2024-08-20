@@ -19,7 +19,7 @@ import { Component, inject, signal } from '@angular/core';
 import { WatchElementDirective, WatchElementService } from '@tg/watch-element';
 ```
 
-### 2. Use the Directive in Your Template
+### 2. Use the Directive in your template
 
 Apply the `tgWatchElement` directive to the DOM element you want to track. Assign a unique ID to the directive.
 
@@ -31,7 +31,7 @@ Apply the `tgWatchElement` directive to the DOM element you want to track. Assig
 }
 ```
 
-### 3. Watch the Element in Your Component
+### 3. Watch the Element in your component
 
 Subscribe to the element using the `WatchElementService` by the ID you assigned in the directive.
 
