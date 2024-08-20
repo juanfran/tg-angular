@@ -2,7 +2,9 @@
   "name": "@tg/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "nx serve demo"
+  },
   "private": true,
   "packageManager": "pnpm@9.6.0",
   "dependencies": {
