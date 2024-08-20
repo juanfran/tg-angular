@@ -6,6 +6,8 @@ import { WatchElementDirective, WatchElementService } from '@tg/watch-element';
   standalone: true,
   imports: [WatchElementDirective],
   template: `
+    <h2>Watch Element Demo</h2>
+
     <button type="button" (click)="hiddenElement.set(!hiddenElement())">
       Toggle hidden element
     </button>
@@ -18,6 +20,10 @@ import { WatchElementDirective, WatchElementService } from '@tg/watch-element';
   `,
   styles: [
     `
+      h2 {
+        margin-block-end: var(--size-4);
+      }
+
       .hidden-element {
         margin-block-start: var(--size-4);
       }
