@@ -1,8 +1,7 @@
 {
   "name": "watch-element",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "libs/watch-element/src",
-  "prefix": "lib",
+  "sourceRoot": "packages/watch-element/src",
   "projectType": "library",
   "tags": [],
   "targets": {

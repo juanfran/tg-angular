@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@tg/watch-element": ["libs/watch-element/src/index.ts"]
+      "@tg/watch-element": ["packages/watch-element/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

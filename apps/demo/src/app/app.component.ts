@@ -1,14 +1,15 @@
 import { Component } from '@angular/core';
-import { RouterModule } from '@angular/router';
-import { NxWelcomeComponent } from './nx-welcome.component';
+import { WatchElementDemoComponent } from './watch-element-demo.component';
 
 @Component({
   standalone: true,
-  imports: [NxWelcomeComponent, RouterModule],
+  imports: [WatchElementDemoComponent],
   selector: 'app-root',
-  templateUrl: './app.component.html',
+  template: `
+    <div class="wrapper">
+      <app-watch-element-demo />
+    </div>
+  `,
   styleUrl: './app.component.css',
 })
-export class AppComponent {
-  title = 'demo';
-}
+export class AppComponent {}
