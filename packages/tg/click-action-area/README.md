@@ -1,4 +1,4 @@
-# Click Action Area Directive for Angular
+# Click Action Area Directive
 
 The **Click Action Area Directive** allows developers to detect specific click actions within a defined threshold of movement, preventing undesired actions like triggering links or buttons when a user clicks. This directive can customize the movement threshold and specify HTML tags that should be ignored when a click action is detected.
 

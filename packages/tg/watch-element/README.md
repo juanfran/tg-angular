@@ -1,4 +1,4 @@
-# Watch Element Library for Angular
+# Watch Element Library
 
 The **Watch Element Library** provides a simple way to track and interact with DOM elements in Angular applications without requiring the elements to be in the same component or using `ViewChild`. This library includes a service and a directive that work together to provide a straightforward API for managing and observing DOM elements by ID.
 

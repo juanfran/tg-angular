@@ -1,4 +1,4 @@
-# Restore Focus Library for Angular
+# Restore Focus Library
 
 The **Restore Focus Library** is designed to enhance accessibility in Angular applications by automatically restoring focus to a specified target element when another element is destroyed. This feature is particularly useful for maintaining a smooth and accessible user experience, especially for keyboard and screen reader users.
 
