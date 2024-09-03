@@ -6,7 +6,6 @@ The **Watch Element Library** provides a simple way to track and interact with D
 
 - **Track DOM Elements by ID**: Easily track any DOM element in your application using a unique ID.
 - **Reactive Element Management**: Add, remove, and watch elements reactively using Angular's dependency injection and RxJS observables.
-- **Standalone Directive**: The directive is standalone, making it easy to import and use in any Angular component.
 
 ## Usage
 

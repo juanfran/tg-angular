@@ -15,8 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@tg/restore-focus": ["packages/restore-focus/src/index.ts"],
-      "@tg/watch-element": ["packages/watch-element/src/index.ts"]
+      "@tg/restore-focus": ["packages/tg/restore-focus/src/index.ts"],
+      "@tg/watch-element": ["packages/tg/watch-element/src/index.ts"],
+      "@tg/click-action-area": ["packages/tg/click-action-area/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

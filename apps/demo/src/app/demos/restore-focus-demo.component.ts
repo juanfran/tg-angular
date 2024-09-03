@@ -36,7 +36,7 @@ import {
   `,
   styles: [
     `
-      p,
+      p:not(:last-child),
       h2,
       button {
         margin-block-end: var(--size-4);
