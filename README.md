@@ -21,3 +21,7 @@ This repository contains a few Angular utilities designed to simplify common tas
 Each utility is standalone and can be imported individually into your Angular project. Refer to the individual library's README for detailed usage instructions.
 
 This repository is intended to be a simple collection of useful Angular utilities.
+
+## Demo
+
+To test the demo, first run `pnpm install` to install the dependencies, and then run `pnpm start` to launch the application.
